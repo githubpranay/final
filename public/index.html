@@ -11,7 +11,30 @@
 
 <body class="">
     <div class="wrapper">
-        <div class="graphics">
+        <div>
+            <h1>
+                9904
+            </h1><br />
+            <h1>
+                Pranay Rao
+            </h1><br />
+            <h2>HTML Image</h2>
+        <img src="/img/aws.jpg" alt="Girl in a jacket" width="500" height="600">
+        </div>
+        <h3 id='seconds-counter'> </h3>
+            <script>
+                var seconds = 0;
+                var el = document.getElementById('seconds-counter');
+        
+                function incrementSeconds() {
+                    seconds += 1;
+                    el.innerText = "Counter " + seconds + " seconds.";
+                }
+                
+                var cancel = setInterval(incrementSeconds, 1000);
+            
+            </script>
+        <!-- <div class="graphics">
             <div class="tower">
                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                      viewBox="-11 170 1000 429" enable-background="new -11 170 1000 429" xml:space="preserve">
@@ -42,9 +65,9 @@
                 </svg>
 
             </div>
-        </div>
+        </div> -->
 
-        <header>
+        <!-- <header>
             <nav class="website-nav">
                 <ul>
                     <li><a class="home-link" href="https://aws.amazon.com/">Home</a></li>
@@ -68,7 +91,7 @@
         <p class="footer-contents">Designed and developed with <a href="https://aws.amazon.com/careers/devtools-jobs/">♥</a> in Seattle.</p>
     </footer>
 
-    <script src="js/set-background.js"></script>
+    <script src="js/set-background.js"></script> -->
 </body>
 
 </html>
